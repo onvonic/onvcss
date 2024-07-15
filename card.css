@@ -1,0 +1,56 @@
+.onv-card {
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+.onv-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+.onv-card-body {
+    padding: 1rem;
+}
+
+.onv-card-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.onv-card-img {
+    width: 100%; /* Mengisi seluruh lebar parent */
+    height: 200px; /* Atur tinggi yang diinginkan */
+    overflow: hidden; /* Menghilangkan overflow */
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.onv-card-img img {
+    width: 100%; /* Mengisi seluruh lebar */
+    height: 100%; /* Mengisi seluruh tinggi */
+    object-fit: cover; /* Mengisi seluruh ruang tanpa memengaruhi aspek ratio */
+}
+
+.onv-card-display{
+    display: flex;
+}
+
+/* onv-card img left */
+.onv-card-img-left {
+    flex: 1;
+}
+
+.onv-card-img-left img {
+    width: 100%;
+    height: 100%; /* Memastikan gambar memenuhi seluruh area */
+    object-fit: cover; /* Memastikan gambar mengisi area dengan mempertahankan aspek ratio */
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.onv-card-body-right {
+    flex: 2;; /* Fleksibel, mengisi ruang yang tersisa */
+    padding: 1rem;
+}

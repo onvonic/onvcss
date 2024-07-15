@@ -1,0 +1,79 @@
+.onv-bg-primary {
+    background-color: var(--onv-primary);
+    color: #fff;
+}
+
+.onv-bg-secondary {
+    background-color: var(--onv-secondary);
+    color: #fff;
+}
+
+.onv-bg-success {
+    background-color: var(--onv-success);
+    color: #fff;
+}
+
+.onv-bg-warning {
+    background-color: var(--onv-warning);
+    color: #fff;
+}
+
+.onv-bg-info {
+    background-color: var(--onv-info);
+    color: #fff;
+}
+
+.onv-bg-danger {
+    background-color: var(--onv-danger);
+    color: #fff;
+}
+
+.onv-bg-dark {
+    background-color: var(--onv-dark);
+    color: #fff;
+}
+
+.onv-bg-default {
+    background-color: var(--onv-default);
+    color: #000;
+}
+
+.onv-bg-soft-primary {
+    background-color: var(--onv-soft-primary);
+    color: var(--onv-primary);
+}
+
+.onv-bg-soft-secondary {
+    background-color: var(--onv-soft-secondary);
+    color: var(--onv-secondary);
+}
+
+.onv-bg-soft-success {
+    background-color: var(--onv-soft-success);
+    color: var(--onv-success);
+}
+
+.onv-bg-soft-warning {
+    background-color: var(--onv-soft-warning);
+    color: var(--onv-warning);
+}
+
+.onv-bg-soft-info {
+    background-color: var(--onv-soft-info);
+    color: var(--onv-info);
+}
+
+.onv-bg-soft-danger {
+    background-color: var(--onv-soft-danger);
+    color: var(--onv-danger);
+}
+
+.onv-bg-soft-dark {
+    background-color: var(--onv-soft-dark);
+    color: var(--onv-dark);
+}
+
+.onv-bg-soft-default {
+    background-color: var(--onv-soft-default);
+    color: var(--onv-default);
+}

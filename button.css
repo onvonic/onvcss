@@ -1,0 +1,283 @@
+.onv-btn {
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color .3s
+}
+
+.onv-btn:hover {
+    opacity: .8
+}
+
+/* # BUTTON BASIC */
+.onv-btn-primary {
+    background-color: var(--onv-primary);
+    color: #fff;
+}
+
+.onv-btn-secondary {
+    background-color: var(--onv-secondary);
+    color: #fff;
+}
+
+.onv-btn-success {
+    background-color: var(--onv-success);
+    color: #fff;
+}
+
+.onv-btn-warning {
+    background-color: var(--onv-warning);
+    color: #fff;
+}
+
+.onv-btn-info {
+    background-color: var(--onv-info);
+    color: #fff;
+}
+
+.onv-btn-danger {
+    background-color: var(--onv-danger);
+    color: #fff;
+}
+
+.onv-btn-dark {
+    background-color: var(--onv-dark);
+    color: #fff;
+}
+
+.onv-btn-default {
+    background-color: var(--onv-default);
+    color: #000;
+}
+
+/* BUTTON OUTLINE */
+.onv-btn-primary-outline {
+    background-color: transparent;
+    border: 1px solid var(--onv-primary);
+    color: var(--onv-primary)
+}
+
+.onv-btn-secondary-outline {
+    background-color: transparent;
+    border: 1px solid var(--onv-secondary);
+    color: var(--onv-secondary)
+}
+
+.onv-btn-success-outline {
+    background-color: transparent;
+    border: 1px solid var(--onv-success);
+    color: var(--onv-success)
+}
+
+.onv-btn-warning-outline {
+    background-color: transparent;
+    border: 1px solid var(--onv-warning);
+    color: var(--onv-warning)
+}
+
+.onv-btn-info-outline {
+    background-color: transparent;
+    border: 1px solid var(--onv-info);
+    color: var(--onv-info)
+}
+
+.onv-btn-danger-outline {
+    background-color: transparent;
+    border: 1px solid var(--onv-danger);
+    color: var(--onv-danger)
+}
+
+.onv-btn-dark-outline {
+    background-color: transparent;
+    border: 1px solid var(--onv-dark);
+    color: var(--onv-dark)
+}
+
+.onv-btn-default-outline {
+    background-color: transparent;
+    border: 1px solid var(--onv-default);
+    color: var(--onv-default)
+}
+
+/* BUTTON SOFT */
+.onv-btn-soft-primary {
+    background: var(--onv-soft-primary);
+    color: var(--onv-primary);
+}
+
+.onv-btn-soft-secondary {
+    background: var(--onv-soft-secondary);
+    color: var(--onv-secondary);
+}
+
+.onv-btn-soft-success {
+    background: var(--onv-soft-success);
+    color: var(--onv-success);
+}
+
+.onv-btn-soft-warning {
+    background: var(--onv-soft-warning);
+    color: var(--onv-warning);
+}
+
+.onv-btn-soft-info {
+    background: var(--onv-soft-info);
+    color: var(--onv-info);
+}
+
+.onv-btn-soft-danger {
+    background: var(--onv-soft-danger);
+    color: var(--onv-danger);
+}
+
+.onv-btn-soft-dark {
+    background: var(--onv-soft-dark);
+    color: var(--onv-dark);
+}
+
+.onv-btn-soft-default {
+    background: var(--onv-soft-default);
+    color: var(--onv-default);
+}
+
+.onv-btn-soft-primary:hover {
+    background-color: var(--onv-primary);
+    color: #fff;
+}
+
+.onv-btn-soft-secondary:hover {
+    background-color: var(--onv-secondary);
+    color: #fff;
+}
+
+.onv-btn-soft-success:hover {
+    background-color: var(--onv-success);
+    color: #fff;
+}
+
+.onv-btn-soft-warning:hover {
+    background-color: var(--onv-warning);
+    color: #fff;
+}
+
+.onv-btn-soft-danger:hover {
+    background-color: var(--onv-danger);
+    color: #fff;
+}
+
+.onv-btn-soft-dark:hover {
+    background-color: var(--onv-dark);
+    color: #fff;
+}
+
+.onv-btn-soft-default:hover {
+    background-color: var(--onv-default);
+    color: #000;
+}
+
+/* BUTTON DASH */
+.onv-btn-primary-dashed {
+    color: var(--onv-primary);
+    border-color: var(--onv-primary);
+    border-width: 1px;
+    border-style: dashed;
+    background-color: transparent;
+}
+
+.onv-btn-secondary-dashed {
+    color: var(--onv-secondary);
+    border-color: var(--onv-secondary);
+    border-width: 1px;
+    border-style: dashed;
+    background-color: transparent;
+}
+
+.onv-btn-success-dashed {
+    color: var(--onv-success);
+    border-color: var(--onv-success);
+    border-width: 1px;
+    border-style: dashed;
+    background-color: transparent;
+}
+
+.onv-btn-warning-dashed {
+    color: var(--onv-warning);
+    border-color: var(--onv-warning);
+    border-width: 1px;
+    border-style: dashed;
+    background-color: transparent;
+}
+
+.onv-btn-info-dashed {
+    color: var(--onv-info);
+    border-color: var(--onv-info);
+    border-width: 1px;
+    border-style: dashed;
+    background-color: transparent;
+}
+
+.onv-btn-danger-dashed {
+    color: var(--onv-danger);
+    border-color: var(--onv-danger);
+    border-width: 1px;
+    border-style: dashed;
+    background-color: transparent;
+}
+
+.onv-btn-dark-dashed {
+    color: var(--onv-dark);
+    border-color: var(--onv-dark);
+    border-width: 1px;
+    border-style: dashed;
+    background-color: transparent;
+}
+
+.onv-btn-default-dashed {
+    color: var(--onv-default);
+    border-color: var(--onv-default);
+    border-width: 1px;
+    border-style: dashed;
+    background-color: transparent;
+}
+
+/* BUTTON SIZE */
+.onv-btn-xm {
+    padding: 4px 8px;
+    font-size: 10px
+}
+
+.onv-btn-sm {
+    padding: 6px 12px;
+    font-size: 12px
+}
+
+.onv-btn-md {
+    padding: 8px 16px;
+    font-size: 14px
+}
+
+.onv-btn-lg {
+    padding: 12px 24px;
+    font-size: 16px
+}
+
+/* BUTTON ROUNDED */
+.onv-btn-rounded {
+    border-radius: 30px !important;
+}
+
+/* BUTTON SHADOW */
+.onv-btn-shadow {
+    box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+}
+
+/* BUTTON ICON */
+.btn-icon {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}

@@ -1,0 +1,122 @@
+.onv-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.onv-table th,
+.onv-table td {
+    border-top: 1px solid #ccc;
+    padding: 8px;
+}
+
+/* table border */
+.onv-table-border {
+    border: 1px solid #ccc;
+}
+
+.onv-table-border th,
+.onv-table-border td {
+    border: 1px solid #ccc;
+}
+
+/* table border */
+.onv-table-borderless th,
+.onv-table-borderless td {
+    border: none;
+}
+
+/* table small */
+.onv-table-sm {
+    font-size: 14px;
+    /* Sesuaikan ukuran font */
+}
+
+.onv-table-sm th,
+.onv-table-sm td {
+    padding: 5px;
+    /* Sesuaikan padding */
+}
+
+/* table striped */
+.onv-table-striped tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+    /* Warna latar belakang untuk baris ganjil */
+}
+
+/* table dark */
+.table-dark {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.table-dark th {
+    background-color: #212529;
+    /* Warna hitam pekat */
+    color: #fff;
+    /* Warna teks putih */
+}
+
+.table-dark th,
+.table-dark td {
+    border-color: #454d55;
+}
+
+/* table hover */
+.onv-table-hover tbody tr:hover {
+    background-color: #f5f5f5;
+    /* Warna latar belakang untuk efek hover */
+    cursor: pointer;
+    /* Mengubah ikon kursor menjadi tanda pointer */
+}
+
+/* table auto */
+.onv-table-auto {
+    table-layout: auto;
+}
+
+.onv-table-auto th {
+    width: auto;
+}
+
+/* table responsive */
+.onv-table-responsive {
+    overflow-x: auto;
+}
+
+/* table nowrap */
+
+.onv-table-nowrap td,
+.onv-table-nowrap th {
+    white-space: nowrap;
+}
+
+/* background head color */
+.onv-table-head-white th {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.onv-table-head-primary th {
+    background-color: #1a56db;
+    color: #fff;
+}
+
+.onv-table-head-secondary th {
+    background-color: #f2f2f2;
+    color: #000;
+}
+
+.onv-table-head-success th {
+    background-color: #046c4e;
+    color: #fff;
+}
+
+.onv-table-head-warning th {
+    background-color: #e3a008;
+    color: #000;
+}
+
+.onv-table-head-danger th {
+    background-color: #c81e1e;
+    color: #fff;
+}

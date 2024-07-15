@@ -1,0 +1,23 @@
+@keyframes card-loading-skeleton {
+    0% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Apply the loading skeleton effect specifically to cards with the class .card-loading-skeleton */
+.card-loading-skeleton {
+    pointer-events: none;
+    /* Disable interactions */
+    animation: card-loading-skeleton 1s infinite alternate;
+    /* Continuous shimmer effect */
+    background-color: #eee;
+    /* Light grey background mimics placeholder appearance */
+    color: transparent;
+    /* Hide all text within the card */
+    filter: grayscale(100%) contrast(0%) brightness(1.8);
+    /* Uniform filter for the whole card */
+}

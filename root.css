@@ -1,0 +1,21 @@
+:root {
+    --onv-primary: #1a56db;
+    --onv-secondary: #6c757d;
+    --onv-success: #046c4e;
+    --onv-warning: #e3a008;
+    --onv-info: #17cdf1;
+    --onv-danger: #c81e1e;
+    --onv-dark: #000000;
+    --onv-default: #ffffff;
+}
+
+:root {
+    --onv-soft-primary: rgb(26 86 219 / 10%);
+    --onv-soft-secondary: rgb(108 117 125 / 10%);
+    --onv-soft-success: rgb(4 108 78 / 10%);
+    --onv-soft-warning: rgb(227 160 8 / 10%);
+    --onv-soft-info: rgb(23 205 241 / 10%);
+    --onv-soft-danger: rgb(200 30 30 / 10%);
+    --onv-soft-dark: rgb(0 0 0 / 10%);
+    --onv-soft-default: rgb(0 0 0 / 10%);
+}
