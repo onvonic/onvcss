@@ -4,8 +4,10 @@
 @import './containers.css';
 @import './table.css';
 @import './card.css';
+@import './form.css';
 @import './modal.css';
 @import './loading-skeleton.css';
+
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 

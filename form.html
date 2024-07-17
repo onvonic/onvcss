@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONV Form Demo</title>
+    <link rel="stylesheet" href="style.onv.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>ONV Form Demo</h1>
+
+        <form class="onv-frm">
+            <div class="section">
+                <h2>Text Inputs</h2>
+                <div>
+                    <label class="onv-frm-component-label">Default Input</label>
+                    <input type="text" class="onv-frm-component" placeholder="Default input">
+                </div>
+                <div>
+                    <label class="onv-frm-component-label">Small Input</label>
+                    <input type="text" class="onv-frm-component onv-frm-component-sm" placeholder="Small input">
+                </div>
+                <div>
+                    <label class="onv-frm-component-label">Medium Input</label>
+                    <input type="text" class="onv-frm-component onv-frm-component-md" placeholder="Medium input">
+                </div>
+                <div>
+                    <label class="onv-frm-component-label">Large Input</label>
+                    <input type="text" class="onv-frm-component onv-frm-component-lg" placeholder="Large input">
+                </div>
+                <div>
+                    <label class="onv-frm-component-label">Disabled Input</label>
+                    <input type="text" class="onv-frm-component" placeholder="Disabled input" disabled>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Textarea</h2>
+                <div>
+                    <label class="onv-frm-component-label">Textarea</label>
+                    <textarea class="onv-frm-component" rows="3" placeholder="Textarea"></textarea>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Select</h2>
+                <div>
+                    <label class="onv-frm-component-label">Select</label>
+                    <select class="onv-frm-select">
+                        <option selected>Choose...</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Checkboxes and Radios</h2>
+                <div class="onv-frm-check">
+                    <input class="onv-frm-check-input" type="checkbox" id="defaultCheck1">
+                    <label class="onv-frm-check-label" for="defaultCheck1">
+                        Default checkbox
+                    </label>
+                </div>
+                <div class="onv-frm-check">
+                    <input class="onv-frm-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="onv-frm-check-label" for="exampleRadios1">
+                        Default radio
+                    </label>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>File Input</h2>
+                <div>
+                    <label class="onv-frm-component-label" for="formFile">Default file input example</label>
+                    <input class="onv-frm-component" type="file" id="formFile">
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Input Groups</h2>
+                <div class="onv-frm-component-group">
+                    <span class="onv-frm-component-group-text">@</span>
+                    <input type="text" class="onv-frm-component" placeholder="Username">
+                </div>
+                <br>
+                <div class="onv-frm-component-group">
+                    <input type="text" class="onv-frm-component" placeholder="Recipient's username">
+                    <span class="onv-frm-component-group-text">@example.com</span>
+                </div>
+                <br>
+                <div class="onv-frm-component-group">
+                    <span class="onv-frm-component-group-text">$</span>
+                    <input type="text" class="onv-frm-component" placeholder="Amount">
+                    <span class="onv-frm-component-group-text">.00</span>
+                </div>
+                <br>
+                <div class="onv-frm-component-group">
+                    <input type="text" class="onv-frm-component" placeholder="Amount">
+                    <a href="#" class="onv-frm-component-group-text">search</a>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Floating Labels</h2>
+                <div class="onv-frm-component-floating">
+                    <input type="text" class="onv-frm-component" id="floatingInput" placeholder=" ">
+                    <label for="floatingInput">Floating outlined</label>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Validation States</h2>
+                <div>
+                    <label class="onv-frm-component-label">Valid input</label>
+                    <input type="text" class="onv-frm-component onv-frm-component-is-valid" value="Valid input">
+                    <div class="onv-frm-component-valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div>
+                    <label class="onv-frm-component-label">Invalid input</label>
+                    <input type="text" class="onv-frm-component onv-frm-component-is-invalid" value="Invalid input">
+                    <div class="onv-frm-component-invalid-feedback">
+                        Please provide a valid input.
+                    </div>
+                </div>
+            </div>
+
+            <button class="onv-btn" type="submit">Submit form</button>
+        </form>
+    </div>
+
+    <script>
+        // Toggle dark mode
+        function toggleDarkMode() {
+            document.body.classList.toggle('onv-frm-dark');
+        }
+    </script>
+</body>
+
+</html>
